@@ -1,0 +1,29 @@
+
+
+/* opis usług */
+
+
+.grid-services{
+  display: grid;
+  justify-content: end;
+  grid-template-columns: auto auto;
+  padding: 20px;
+  gap: 50px;
+  height: 100vh;
+}
+.grid-item{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-color: #be6f24;
+  padding: 20px; 
+}
+.grid-item p {
+  text-align: justify;
+  padding: 5px;
+}
+
+.grid-item h2{
+  padding-bottom: 5px;
+}
