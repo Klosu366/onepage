@@ -6,27 +6,31 @@
   <meta name="description" content="Firma zajmująca sie sprzedażą i montażem okien, drzwi, rolet, bram garażowych">
   <meta name="keywords" content="sprzedaż, montaż, okna, drzwi, rolety, brama garażowa">
   <link rel="stylesheet" href="./style/style.css">
-  <link rel="icon" type="image/x-icon" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/x-icon" href="../favicon/favicon-32x32.png">
   <title>ŚLESIŃSKI ESTD. 1994</title>
 
 </head>
 <body>
     <nav>
         <picture>
-          <source media="(max-width:641px)" srcset="./zdjecia/logo_mob.webp" alt="logo_mob">
-          <img src="./zdjecia/logo_pc.webp" alt="logo_pc">
+          <source media="(min-width:765px)" srcset="zdjecia/logo_pc.png" alt="logo_pc">
+          <img src="./zdjecia/logo_mob.png" alt="logo_mob">
         </picture>
       <div class="links">
         <a href="#about_us">O Nas</a>
         <a href="#services">Usługi</a>
         <a href="#guarantee">Gwarancja</a>
         <a href="#contact" >Kontakt</a>
+
+        <a href="./podstrona/dewebsite.html" class="changelanguage">
+          <button>PL</button>
+        </a>
       </div>
     </nav>
     <header id="about_us">
       <picture class="picture-container">
-        <source media="(min-width:641px)" srcset="./zdjecia/baner_aboutus.webp">
-        <img src="./zdjecia/baner_aboutus_mob.webp" alt="zdjecie" id="photo_us" >
+        <source media="(min-width:765px)" srcset="zdjecia/baner_aboutus.webp">
+        <img src="zdjecia/baner_aboutus_mob.webp" alt="zdjecie" id="photo_us" >
       </picture>
       <div class="TextaboutUs">
         <h1>O Nas</h1>
@@ -48,32 +52,32 @@
         <h2>Usługi</h2>
       </div>
       <div class="services_catalog">
-          <a href="uslugi.html#montazokien" class="service" >
+          <a href="./podstrona/uslugi.html#montazokien" class="service" >
             <picture class="picture-hover">
-              <source media="(min-width:641px )" srcset="./zdjecia/miniaturka_okna_pc.webp">
+              <source media="(min-width:765px )" srcset="zdjecia/miniaturka_okna_pc.webp">
               <img src="./zdjecia/miniaturka_okna_mob.webp" alt="montazokien">
             </picture>
-            <p>Montaż Okien</p>
+            <p>Montaż <br>Okien</p>
           </a>
-          <a href="uslugi.html#montazdrzwi" class="service">
+          <a href="./podstrona/uslugi.html#montazdrzwi" class="service">
             <picture class="picture-hover">
-              <source media="(min-width:641px )" srcset="./zdjecia/miniaturka_drzwi_pc.webp">
+              <source media="(min-width:765px )" srcset="zdjecia/miniaturka_drzwi_pc.webp">
               <img src="./zdjecia/miniaturka_bg_mob.webp" alt="montazdrzwi">
             </picture>
-            <p>Montaż Drzwi</p>
+            <p>Montaż <br>Drzwi</p>
           </a>
-          <a href="uslugi.html#montazrolet" class="service">
+          <a href="./podstrona/uslugi.html#montazrolet" class="service">
             <div>
               <picture class="picture-hover">
-                <source media="(min-width:641px )" srcset="./zdjecia/miniaturka_rolety_pc.webp">
+                <source media="(min-width:765px )" srcset="zdjecia/miniaturka_rolety_pc.webp">
                 <img src="./zdjecia/miniaturka_rolety_mob.webp" alt="montazrolet">
               </picture>
             </div>
-            <p>Montaż Rolet</p>
+            <p>Montaż<br>Rolet</p>
           </a>
-          <a href="uslugi.html#montazbram" class="service">
+          <a href="./podstrona/uslugi.html#montazbram" class="service">
             <picture class="picture-hover">
-              <source media="(min-width:641px )" srcset="./zdjecia/miniaturka_bg_pc.webp">
+              <source media="(min-width:765px )" srcset="zdjecia/miniaturka_bg_pc.webp">
               <img src="./zdjecia/miniaturka_bg_mob.webp" alt="">
             </picture>
             <p><span>Montaż Bram <br>Garażowych</span></p>
@@ -84,7 +88,7 @@
       <div class="tekst">
       <div class="obrazek">
         <picture>
-          <source media="(min-width:641px )" srcset="./zdjecia/guarantee_photo.webp">
+          <source media="(min-width:765px )" srcset="zdjecia/guarantee_photo.webp">
           <img src="./zdjecia/guarantee_photo_mob.webp" alt="">
         </picture>
       </div>
@@ -99,16 +103,16 @@
             <a href="#services">Usługi</a>
               <ul>
                 <li>
-                  <a href="uslugi.html#montazokien"> Montaż okien</a>
+                  <a href="./podstrona/2.html#montazokien"> Montaż okien</a>
                 </li>
                 <li>
-                  <a href="uslugi.html#montazdrzwi"> Montaż drzwi</a>
+                  <a href="./podstrona/uslugi.html#montazdrzwi"> Montaż drzwi</a>
                 </li>
                 <li>
-                  <a href="uslugi.html#montazrolet"> Montaż rolet</a>
+                  <a href="./podstrona/uslugi.html#montazrolet"> Montaż rolet</a>
                 </li>
                 <li>
-                  <a href="uslugi.html#montazbram"> Montaż bram garażowych</a>
+                  <a href="./podstrona/uslugi.html#montazbram"> Montaż bram garażowych</a>
                 </li>
               </ul>
         </ol>
@@ -119,6 +123,11 @@
           <ol>
             <li>ul.Plac Targowy 2</li>
             <li>46-243 Bogacica</li>
+          </ol>
+          <h5 class="numer_tel">Numer telefonu</h5>
+          <ol>
+            <li>+48729683651</li>
+            <li>+491638670184</li>
           </ol>
         </div>
   
@@ -134,20 +143,20 @@
           <div class="listOfsocial">
             <a href="https://www.facebook.com/people/Ślesiński-Okna/61555945213758/">
               <picture>
-                <source media="(max-width:641px )" srcset="zdjecia/fb_ikon.webp">
+                <source media="(min-width:765px )" srcset="zdjecia/fb_ikon.webp">
                 <img src="./zdjecia/fb_ikon_mob.webp" alt="fb">
               </picture>
             </a>
             <a href="tel:+48729683651">
               <picture> 
-                  <source media="(max-width:641px )" srcset="zdjecia/phone_pc.webp">
+                  <source media="(min-width:765px )" srcset="zdjecia/phone_pc.webp">
                   <img src="./zdjecia/phone_mob.webp" alt="">
               </picture>
             </a>
   
             <a href="mailto:janpax@interia.pl">
               <picture>
-                <source media="(max-width:641px)" srcset="zdjecia/mail_pc.webp">
+                <source media="(min-width:765px)" srcset="zdjecia/mail_pc.webp">
                 <img src="./zdjecia/mail_mob.webp" alt="poczta">
               </picture>
             </a>

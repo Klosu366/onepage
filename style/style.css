@@ -37,6 +37,16 @@ nav{
   color:rgb(170, 170, 170);
 }
 
+.changelanguage button{
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2e9b6;
+  background-color: #5c5c5c;
+  border: none;
+  border-radius: 5px;
+}
 
 
 /* header */
@@ -54,6 +64,7 @@ nav{
 }
 
 #photo_us{
+  object-fit: contain;
   flex: 1;
   width: 100%;
 }
@@ -109,12 +120,12 @@ p{
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  height: auto;
+  height: 400px;
   box-shadow: -1px 5px 9px gray;
   background: linear-gradient(0deg, rgba(190,111,36,1) 0%, rgba(214,169,115,1) 100%); 
   border-radius: 5px;
   text-align: center;
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
   font-size: 1.15em;
   transition: transform 0.3s; 
 }
@@ -181,6 +192,9 @@ ol{
   padding: 0px;
   list-style: none;
 }
+.numer_tel{
+  margin-top: 10px;
+}
 .mapweb{
   display: flex;
   flex-direction: column;
@@ -220,7 +234,7 @@ li::before{
 
 
 
-@media only screen and (max-width: 640px){ 
+@media only screen and (max-width: 764px){ 
 /* nav */
   nav{
     display: flex;
@@ -252,7 +266,7 @@ li::before{
     width: 100%;
   }
 
-  #photo_us{
+  #Überuns{
     width: 100%;
   }
 
@@ -289,6 +303,7 @@ li::before{
   /* stopka */
 
   footer{
+    bottom: 0;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -327,22 +342,66 @@ li::before{
     justify-content: center;
     height: auto;
   }
-}
 
-@media only screen and (min-width: 768px) and (max-width:1440px){ 
-  header{
-    display: flex;
-    flex-direction: column;
+  .grid-item{
+    height: 75%;
+  }
+  .decontact{
+    width: 200px;
   }
 
-  header .picture-container{
+  .image-gallery img {
+    width: 95%;
+    height: 60%;
+    object-fit: contain;
+    max-height: 600px;
+  }
+
+  .mob{
+    height: 400px;
+  }
+
+
+}
+
+@media only screen and (min-width: 765px) and (max-width:1580px){ 
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+    width:100%;
+  }
+  #about_us{
+    width: 100%;
+  }
+  .picture-container{
     flex: 1;
+    width: 50%;
+  }
+  .TextaboutUs{
+    flex: 1;
+    width: 50%;
+    box-sizing: border-box;
+  }
+
+
+  .services_catalog{
+    gap: 50px;
+  }
+
+  footer{
     width: 100%;
   }
 
-  .TextaboutUs{
-    flex: 1;
-    width: 95%;
+  .grid-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    height: auto;
   }
+
+
   
 }
